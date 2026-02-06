@@ -26,10 +26,8 @@ const MainSlides = () => {
     "Adyar", "Alwarpet", "Ambattur", "Anna Nagar", "Ashok Nagar", "Avadi", "Besant Nagar", "Chromepet", "Egmore", "Guindy", "Kodambakkam", "Kotturpuram", "Madipakkam", "Mylapore", "Nungambakkam", "Perambur", "Porur", "Purasawalkam", "Ramapuram", "Royapettah", "Saidapet", "Sholinganallur", "Tambaram", "Teynampet", "Thiruvanmiyur", "T Nagar", "Vadapalani", "Velachery", "Villivakkam", "Virugambakkam", "Washermanpet", "Vepery", "Pallavaram", "Pallikaranai", "Manapakkam", "Mogappair", "Thirumangalam", "Thirumullaivoyal", "Thiruvottiyur", "Triplicane", "Vyasarpadi", "Choolaimedu", "Chetpet", "Kilpauk", "Perungudi", "Koyambedu", "Aminjikarai", "Tondiarpet", "Kolathur", "Madhavaram", "Perungalathur", "Medavakkam", "Selaiyur", "Sembakkam", "Urapakkam", "Guduvanchery", "Vandalur", "Navalur", "Kelambakkam", "Thoraipakkam", "Karapakkam", "Neelankarai", "Injambakkam", "Palavakkam", "Kottivakkam", "Nanganallur", "Meenambakkam", "St Thomas Mount"
   ];
   const placeholders = [
-    "Search properties...",
     "Search by location...",
-    "Search by budget...",
-    "Search by builder..."
+
   ];
   const [index, setIndex] = useState(0);
   useEffect(() => {
