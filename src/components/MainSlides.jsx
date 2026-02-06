@@ -62,7 +62,7 @@ const MainSlides = () => {
           </svg>
           {/* Centered Content */}
           <div className="flex flex-col items-center justify-center text-center px-4">
-            <h2 className="text-3 xl md:text-5xl font-extrabold text-white mb-4 mt-12 md:mt-32"> 
+            <h2 className="text-2xl md:text-5xl font-extrabold text-white mb-4 mt-12 md:mt-32"> 
               Brick & Key - Your Trusted Property Partner
             </h2>
             <p className="text-lg md:text-xl text-gray-200 max-w-2xl">
