@@ -80,7 +80,7 @@ const AllProperties = () => {
                 {/* Property Grid */}
                 <div className="flex flex-col md:flex-row gap-6">
                     {/* Sidebar Filters */}
-                    <aside className="w-full md:w-1/4 border-r border-gray-200 bg-white rounded-xl p-4 md:sticky md:top-24 h-fit">
+                    <aside className="w-full md:w-1/4 border-r border-gray-200 bg-white rounded-xl p-4 md:sticky md:top-24 h-fit hidden md:block">
                         <h3 className="text-lg font-bold mb-4 text-blue-900">Filters</h3>
                         {/* Location Multiselect */}
 
