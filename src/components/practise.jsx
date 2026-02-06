@@ -28,7 +28,7 @@ const Practise = () => {
       setIndex((prevIndex) => (prevIndex + 1) % placeholders.length);
     }, 3000);
     return () => clearInterval(intervalRef.current);
-  }, []);
+  }, [placeholders.length]);
 
 
   return (
